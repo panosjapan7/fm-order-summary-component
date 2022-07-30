@@ -2,4 +2,20 @@ body {
     background-image: url("../images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .card {
+        width: 300px;
+        height: auto;
+        background-color: red;
+    }
+
+footer {
+    margin-top: 50px;
 }
